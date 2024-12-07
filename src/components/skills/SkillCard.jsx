@@ -25,3 +25,5 @@ const SkillCard = ({ category, skills }) => {
       </motion.div>
     );
   };
+
+  export default SkillCard;

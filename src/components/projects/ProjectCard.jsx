@@ -20,3 +20,5 @@ const ProjectCard = ({ project }) => {
       </motion.div>
     );
   };
+
+  export default ProjectCard;  

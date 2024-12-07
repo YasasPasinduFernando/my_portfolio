@@ -8,3 +8,5 @@ const SocialIcon = ({ href, icon }) => (
       {icon}
     </motion.a>
   );
+  
+  export default SocialIcon;

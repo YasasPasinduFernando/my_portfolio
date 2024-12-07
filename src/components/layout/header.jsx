@@ -1,6 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Phone } from 'lucide-react';
+import { Github, Mail, Phone } from 'lucide-react';
+
+const SocialIcon = ({ href, icon }) => (
+  <a href={href} target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-200">
+    {icon}
+  </a>
+);
 
 const Header = () => {
   return (
@@ -14,7 +20,7 @@ const Header = () => {
             transition={{ duration: 0.5 }}
           >
             <img 
-              src="/api/placeholder/200/200"
+              src="https://via.placeholder.com/200"
               alt="Yasas Pasindu Fernando" 
               className="rounded-full w-48 h-48 object-cover mx-auto md:mx-0"
             />
@@ -38,3 +44,5 @@ const Header = () => {
     </header>
   );
 };
+
+export default Header;
