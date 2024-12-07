@@ -1,4 +1,3 @@
-// src/App.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import Header from './components/layout/Header';
@@ -6,6 +5,7 @@ import About from './components/sections/About';
 import Projects from './components/sections/Projects';
 import Skills from './components/sections/Skills';
 import Footer from './components/layout/Footer';
+
 
 const App = () => {
   return (
